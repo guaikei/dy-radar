@@ -6,6 +6,11 @@ name: dy-radar
 description: 抖音机会雷达数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.0
+display_name: "抖音机会雷达｜蓝海词·低竞争选题·流量洼地·热点捕捉"
+display_name_en: "Douyin Opportunity Radar"
+description_zh: "抖音机会雷达数据源（只读）：关键词搜索视频与图文、用户搜索、博主作品与互动数据（可只取账号数据）、作品详情、视频评论舆情、实时热榜；支持综合/最多点赞/最新排序与时间、时长、内容类型（视频/图文）多维筛选，全部以结构化 JSON 输出供 AI 直接扫描机会。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月视频搜索/用户搜索/作品最多 30、评论最多 50（详情与热榜无条数限制），超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于蓝海词挖掘、低竞争选题、流量洼地发现与热点捕捉。"
+description_en: "Read-only Douyin opportunity-radar data source: keyword search across videos and image-text posts, user search, benchmark-account video lists and engagement stats (account-only mode supported), per-post details, comment sentiment mining, and real-time hot lists. Supports comprehensive/most-liked/latest sorting plus time-window, duration, and content-type filters; all results are structured JSON ready for direct opportunity scanning. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap video search/user search/creator-videos at 30 and comments at 50 (details and hot lists unlimited), returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for blue-ocean keyword mining, low-competition topic selection, traffic-gap discovery, and hot-trend capture."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
